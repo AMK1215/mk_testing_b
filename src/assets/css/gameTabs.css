@@ -1,0 +1,120 @@
+.gameTabHeading{
+    position: relative;
+}
+.gameTabImg{
+    height: 65px;
+    width: 200px;
+}
+.gameTabText{
+    text-wrap: nowrap;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    font-size: 16px;
+    color: #A10500;
+    transition: all .2s ease-in-out;
+}
+.gameTabHeading:hover{
+    .gameTabText{
+        color: #FF7663;
+        font-weight: 600;
+    }
+}
+.gameTabImg1,.gameTab{
+    min-width: 135px;
+    min-height: 135px;
+    max-height: 135px;
+    border-radius: 10px;
+    background: white;
+}
+.popularImg1{
+    background: radial-gradient(100% 100% at 50% 0, rgba(138, 185, 255, .9) 0, rgba(52, 120, 221, .9) 100%);
+}
+.allGamesText{
+    text-decoration: underline;
+}
+.newImg1{
+    background: #FF7C69;
+}
+.slotImg1{
+    background: linear-gradient(180deg, rgba(33, 205, 146, .9) .08%, rgba(0, 153, 219, .9));
+}
+.gameName{
+    text-wrap: nowrap;
+    background-image: linear-gradient(#011123, #010d20, #062247);
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    color: #f0f8ff;
+    border: 2px solid #cecece;
+    font-size: 13px;
+    width: 100%;
+}
+@media screen and (max-width:950px) {
+    .gameTabImg1,.gameTab{
+        min-width: 120px;
+        min-height: 120px;
+        max-width: 120px;
+        max-height: 120px;
+    }
+}
+@media screen and (max-width:900px) {
+    .gameTabImg{
+        height: 55px;
+        width: 140px;
+    }
+    .gameTabText{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:700px) {
+    .gameTabImg{
+        height: 50px;
+        width: 130px;
+    }
+    .gameTabText{
+        font-size: 14px;
+        left: 40%;
+    }
+}
+@media screen and (max-width:600px) {
+    .gameTabImg1,.gameTab{
+        min-width: 100px;
+        min-height: 100px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .tabTitle{
+        font-size: 16px;
+    }
+    .tabText{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:510px) {
+    .gameName{
+        font-size: 11px;
+     }
+}
+@media screen and (max-width:500px) {
+    .gameTabImg1,.gameTab{
+        min-width: 90px;
+        min-height: 90px;
+        max-width: 90px;
+        max-height: 90px;
+    }
+    .tabTitle{
+        margin-bottom: -2px;
+    }
+}
+@media screen and (max-width:400px) {
+    .gameTabImg1,.gameTab{
+        min-width: 80px;
+        min-height: 80px;
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .tabTitle{
+        font-size: 14px;
+    }
+}

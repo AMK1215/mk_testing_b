@@ -1,0 +1,139 @@
+.navbar,.sidebar{
+    background: linear-gradient(180deg, #340000, #bc0600);
+    color: white;
+}
+.logo{
+    width: auto;
+    height: 60px;
+}
+.navProfile{
+    width: 20px;
+    height: 20px;
+}
+.moneyGroup{
+    background: #00000050;
+}
+.coin{
+    width: 20px;
+    height: 20px;
+}
+.reload{
+    width: 20px;
+    height: 20px;
+}
+.flag{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+#dropdown-basic-button{
+    background: none ;
+    border: none;
+}
+.dropdown-menu{
+    transform: none !important;
+    inset: unset !important;
+    min-width: max-content !important;
+    max-width: max-content !important;
+    background: none;
+    border: none;
+}
+.dropdown-item,.dropdown-item:hover{
+    background: none;
+}
+.menuIcon{
+    font-size: 40px;
+}
+.tg{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.navRegBtn{
+    background: #74BEFB;
+}
+.navLoginBtn{
+background: #FF7663;
+}
+.navlist{
+    font-size: 18px;
+}
+.navlist:hover,.menuList:hover{
+    color: #FF7663;
+}
+@media screen and (max-width:500px) {
+  
+    .sidebar{
+        width: 75% !important;
+    }
+    .menuList{
+        font-size: 16px !important;
+    }
+}
+@media screen and  (max-width:400px) {
+    
+    .menuIcon{
+        font-size: 32px !important;
+    }
+    .tg{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width:385px){
+.navText{
+    font-size: 13px;
+}
+.navAmount{
+    font-size: 12px;
+}
+}
+@media screen and (max-width:380px){
+    .logo{
+        height: 55px;
+    }
+}
+@media screen and (max-width:360px){
+    .logo{
+        height: 50px;
+    }
+}
+@media screen and (max-width:350px) {
+   
+    .menuList{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width:328px){
+    .logo{
+        height: 48px;
+    }
+}
+@media screen and (max-width:325px){
+    .navText{
+        font-size: 12px;
+    }
+    .navAmount{
+        font-size: 11px;
+    }
+}
+@media screen and  (max-width:315px) {
+    .coin,.navProfile{
+        width: 16px;
+        height: 16px;
+    }
+    .reload{
+        width: 16px;
+        height: 16px;
+    }
+     .tg{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+@media screen and (max-width:308px){
+    .logo{
+        height: 44px;
+    }
+}

@@ -1,0 +1,39 @@
+.kbz{
+    width: 80px;
+    height: 80px;
+}
+ 
+.containMoney{
+    width: 100%;
+    max-width: 500px;
+     background: linear-gradient(158deg, rgb(60 60 60), #101113);
+    margin: 20px auto 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.containMoneyText{
+    color: #ECC568;
+}
+@media screen and (max-width:600px) {
+    .transactionText{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .kbz{
+        height: 60px;
+        width: 60px;
+    }
+}
+@media screen and (max-width:350px) {
+    .transactionText{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:320px) {
+    .transactionText{
+        font-size: 14px;
+    }
+}

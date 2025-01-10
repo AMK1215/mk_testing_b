@@ -1,0 +1,52 @@
+.infoImg{
+    width: 80px;
+    height: 80px;
+}
+.footerGameImg{
+    height: 80px;
+    margin-right: 20px;
+}
+.footerLogo{
+    height: 100px;
+    width: auto;
+}
+.footerLogoSec{
+    background: linear-gradient(180deg, #340000, #bc0600);
+}
+.appHeading{
+    background-image: linear-gradient(180deg, #171717 0, #000);
+}
+.customForm{
+    background: #161616;
+    width: 50%;
+    margin: auto;
+    border: 1px solid #BD982E;
+}
+.customForm button{
+    background: linear-gradient(135deg, #f2e06b, #a47005 30%, #fefd98 70%, #debe56);
+    border: none;
+    color: #000;
+}
+@media screen and (max-width:1000px) {
+    .footerGameImg{
+        height: 60px;
+    }
+}
+@media screen and (max-width:700px) {
+    .footerGameImg{
+        height: 50px;
+    }
+}
+@media screen and (max-width:600px) {
+    .customForm{
+        width: 90%;
+    }
+}
+@media screen and (max-width:400px) {
+    .footerGameImg{
+        height: 45px;
+    }
+    .customForm{
+        width: 95%;
+    }
+}

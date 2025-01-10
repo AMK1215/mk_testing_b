@@ -1,0 +1,52 @@
+.authBg{
+    background-image: url('/src/assets/images/login-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000;
+    /* background: linear-gradient(180deg, #340000 0, #bc0600); */
+    min-height: 100vh;
+    max-height: max-content;
+}
+.authForm{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, .4);
+    /* background: linear-gradient(158deg, #340000, #bc0600 100%); */
+    background-color: #8b010196;
+    border-radius: 20px;
+    border: 1px solid #f80202;
+    /* width: 35%; */
+    margin: auto;
+    /* opacity: 90%; */
+}
+.authForm input,.authForm select{
+    background: #000;
+    color: white;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 100%;
+}
+.authBtn{
+    color: #141e30;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, .4);
+}
+
+@media screen and (max-width:900px) {
+    .authForm{
+        width: 60%;
+    }
+}
+@media screen and (max-width:600px) {
+    .authForm{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .authForm{
+        width: 90%;
+    }
+}
